@@ -4,6 +4,9 @@ capture_dir: captured_data
 # Image format for captured data
 capture_image_format: png
 
+# Frames per second for data capture including camera images and RFID readings
+capture_fps: 1
+
 # Enable mock data capture for testing on platforms lacking native support,
 # since hardware components such as Picamera2 and the RFID reader are platform-dependent.
 use_mock_camera: true
