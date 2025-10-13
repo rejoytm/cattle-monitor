@@ -1,5 +1,5 @@
 # Directory where captured data will be stored locally
-capture_dir: captured_data
+capture_dir: instance/captured_data
 
 # Image format for captured data
 capture_image_format: png
