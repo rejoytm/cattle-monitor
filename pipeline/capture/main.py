@@ -13,8 +13,8 @@ from pipeline.capture.rfid_reader import initialize_rfid_reader, get_rfid_readin
 setup_logging()
 logger = logging.getLogger(__name__)
 config = load_yaml_config("pipeline/config.yaml")
-capture_dir = os.path.abspath(config.get("capture_dir", "captured_data"))
-capture_image_format = config.get("capture_image_format", "png")
+capture_dir = os.path.abspath(config.get("capture_dir"))
+capture_image_format = config.get("capture_image_format")
 capture_fps = config.get("capture_fps", 1)
 
 def main():
