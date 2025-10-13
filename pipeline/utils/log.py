@@ -4,7 +4,8 @@ import time
 def setup_logging(level=logging.INFO):
     logging.basicConfig(
         level=level,
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        force=True
     )
 
 def log_time_taken(process_name, start_time):
