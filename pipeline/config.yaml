@@ -11,3 +11,6 @@ capture_fps: 1
 # since hardware components such as Picamera2 and the RFID reader are platform-dependent.
 use_mock_camera: true
 use_mock_rfid_reader: true
+
+# Directory where models are stored
+models_dir: instance/models

@@ -2,3 +2,7 @@ numpy
 opencv-python
 picamera2
 pyyaml
+ultralytics
+deep_sort_realtime
+paddlepaddle
+paddleocr
