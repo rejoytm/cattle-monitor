@@ -8,7 +8,7 @@ from pipeline.utils.log import setup_logging, log_time_taken
 from pipeline.process.tracking import deepsort
 from pipeline.process.detection import detect_objects
 from pipeline.process.analysis import analyze_detections
-from pipeline.process.visualize import visualize_analysis_results
+from pipeline.process.visualization import visualize_analysis_results
 
 setup_logging()
 logger = logging.getLogger(__name__)
